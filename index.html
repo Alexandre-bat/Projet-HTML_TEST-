@@ -38,6 +38,13 @@
             <option value="Not good">Not good</option>
         </select>
         <br>
+        <label>
+            Age :
+            <input type="range" name="age" min="18" max="62" value="30"
+                oninput="ageValue.textContent = this.value">
+            <span id="ageValue">30</span> ans
+        </label>
+        <br>
         Time <input type="datetime-local" name="time2">
     </center>
 
